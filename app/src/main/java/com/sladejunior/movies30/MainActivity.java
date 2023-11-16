@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         textViewTopRated = findViewById(R.id.textViewTopRated);
         progressBarLoading = findViewById(R.id.progressBarLoading);
         lang = Locale.getDefault().getLanguage();
+        Toast.makeText(this, "salom", Toast.LENGTH_LONG).show();
 
 
         switchSort.setChecked(true);
